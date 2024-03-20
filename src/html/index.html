@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test_task</title>
-    <!-- Добавление шрифта Lato и его вариаций с сайта google-fonts -->
+    <!-- Добавление шрифтов с сайта google-fonts -->
+    <!--  Lato и его вариации  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+     <!-- Montserrat -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+
+    <!-- Похожие, но не подошли: PT sans, Ruda: &family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Ruda:wght@400..900 -->
 </head>
 
-<body> <!--  -->
-
-    <div class="block" style="background-color: rgb(237, 209, 164); margin: 30px; padding: 20px; width: 782px; height: 318.35px; border-radius: 15px; border: 1px solid black;">
+<body>
+    <div class="block" style="background-color: white; margin: 30px; padding: 20px; width: 782px; height: 318.35px; border-radius: 15px; border: 1px solid black;"> <!-- rgb(237, 209, 164) - хорошо сочетающийся бежевый фоновый цвет -->
         <div class="container" style="height: 298.35px; margin-top: 10px;">
             <div class="title-container" style="position: relative; margin-left: 20px; margin-bottom: 20px;">
-                <div class="title-text" style="font-family: 'Lato', sans-serif; font-weight: 300; font-style: normal; width: 108px; color: #959595; font-size: 20px;">Template 59</div>
-
-                <!-- <hr noshade style="width: 698px; border-radius: 10px; height: 0.01px;"> -->
-                <div class="gray-line" style="width: 698px; height: 0.5px; top: 25px;background-color: #959595; position: absolute; border-radius: 50%;"></div>
-
-
+                <div class="title-text" style="font-family: 'Lato', sans-serif; font-weight: 700; font-style: normal; width: 108px; color: #959595; font-size: 19px;">Template 59</div>
+                <div class="gray-line" style="width: 698px; height: 1.5px; top: 25px;background-color: #959595; position: absolute; border-radius: 10px;"></div>
             </div>
 
-
-
             <div class="card-container" style="display: flex; justify-content:space-between;">
-                <div class="front-card" style="position: relative; width: 356px; height: 230.35px; background-color: rgb(255, 255, 255); border-radius: 10px;"> <!--  -->
+                <div class="front-card" style="position: relative; width: 356px; height: 230.35px; background-color: rgb(255, 255, 255); border-radius: 10px;">
                     <div class="layer-1"><img src="../materials/bottom-line.svg"  alt="" draggable="false" style="position: absolute; bottom: -1px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; user-select: none;"></div>
                     <div class="layer-2"><img src="../materials/front-top-part.svg" alt="" draggable="false" style="border-top-left-radius: 10px; border-top-right-radius: 10px; user-select: none;"></div>
                     <div class="layer-3"><img src="../materials/photo.svg" alt="" style="position: absolute; bottom: 0px; right: 0px; user-select: none;"></div>
@@ -36,34 +37,40 @@
                     <div class="layer-6"><img src="../materials/front-bottom-ring.svg" alt="" draggable="false" style="position: absolute; bottom: 0px; right: 0px; border-bottom-right-radius: 10px; user-select: none;"></div>
                     <div class="layer-7"><img src="../materials/front-bottom-second-ring.svg" alt="" draggable="false" style="position: absolute; bottom: 0px; right: 0px; border-bottom-right-radius: 8px; user-select: none;"></div>
                     <div class="layer-8" style="padding: 20px;">
-                        <div class="title-1" style="position: absolute; top: 10px; font-family: Arial; font-weight: 900; color: white; font-size: 30px;">ERIC FISHER</div>
-                        <div class="title-2" style="position: absolute; top: 53px; font-family: Arial; font-weight: 50; color: white; font-size: 12px;">FISHERMAN</div>
+                        <div class="title-1" style="position: absolute; top: 10px; font-family: 'Montserrat', sans-serif;  font-weight: 900; font-style: normal; color: white; font-size: 35px; ;">ERIC FISHER</div>
+                        <div class="title-2" style="position: absolute; top: 52px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: white; font-size: 11px; letter-spacing: 2px;">FISHERMAN</div>
                     </div>
-                    <div class="layer-9">
-                        <ul>
-                            <li>
-                                1
-                            </li>
-                        </ul>
+                    <div class="layer-9" style="position: absolute; bottom: 28px; left: 20px;">
+                        <div class="contact-1" style="margin-bottom: 8px; position: relative; height: 9px; width: 300px;">
+                            <img src="../materials/mail-icon.svg" style="position: absolute; bottom: 1.5px; height: 7px;" alt="">
+                            <span style="position: absolute; bottom: 0px; left: 10px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: #1F295D; font-size: 7px; letter-spacing: 1px;">ERIC@FISHER.COM</span>
+                        </div>
+                        <div class="contact-2" style="margin-bottom: 8px; position: relative; height: 9px; width: 100px;">
+                            <img src="../materials/planet-icon.svg" style="position: absolute; left: -1px; bottom: 1.5px; height: 8.34px;" alt="">
+                            <span style="position: absolute; bottom: 1px; left: 10px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: #1F295D; font-size: 7px; letter-spacing: 1px;">WWW.YOURSITEURL.COM</span>
+                        </div>
+                        <div class="contact-3" style="margin-bottom: 8px; position: relative; height: 9px; width: 100px;">
+                            <img src="../materials/phone-icon.svg" style="position: absolute; bottom: 1.5px; height: 7.82px;" alt="">
+                            <span style="position: absolute; bottom: 1px; left: 10px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: #1F295D; font-size: 7px; letter-spacing: 1px;">+1 800 111 0000</span>
+                        </div>
+                        <div class="contact-4" style="position: relative; height: 9px; width: 150px;">
+                            <img src="../materials/house-icon.svg" style="position: absolute; left: -1px; bottom: 1.5px; height: 8.34px;" alt="">
+                            <span style="position: absolute; bottom: 1px; left: 10px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: #1F295D; font-size: 7px; letter-spacing: 1px;">SAN FRANCISCO, CA, USA</span>
+                        </div>
                     </div>
                 </div>
-
-
-
-
-
-
                     <div class="back-card" style=" position: relative; width: 356px; height: 230.35px; background-color: rgb(255, 255, 255); border-radius: 15px;">
-                        <div class="layer-1"><img src="../materials/back-top.svg" alt="" draggable="false" style="position: absolute; top: -0.8px;"></div>
-                        <div class="layer-2"><img src="../materials/sign.svg" alt="" draggable="false" style="position: absolute; top: 32px; left: 35px;"></div>
-                        <div class="layer-3"><img src="../materials/bottom-line.svg"  draggable="false" alt="bottom-line" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; position: absolute; bottom: -0.8px;"></div>
-                        <div class="layer-4"><img src="../materials/back-white-line.svg" draggable="false" alt="" style="position: absolute; bottom: 16px;"></div>
-
+                        <div class="layer-1"><img src="../materials/back-top.svg" alt="" draggable="false" style="position: absolute; top: -0.8px; user-select: none;"></div>
+                        <div class="layer-2"><img src="../materials/sign.svg" alt="" draggable="false" style="position: absolute; top: 32px; left: 35px; user-select: none;"></div>
+                        <div class="layer-3"><img src="../materials/bottom-line.svg"  draggable="false" alt="bottom-line" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; position: absolute; bottom: -0.8px; user-select: none;"></div>
+                        <div class="layer-4"><img src="../materials/back-white-line.svg" draggable="false" alt="" style="position: absolute; bottom: 16px; user-select: none;"></div>
+                        <div class="layer-5" style="position: absolute; left: 100px; bottom: 28px; font-family: 'Montserrat', sans-serif;  font-weight: 300; font-style: normal; color: #1F295D; font-size: 10px; letter-spacing: 1px;">ERIC@FISHER@GMAIL.COM</div>
                     </div>
                 </div>
             </div>
         </div>
 
-    <div class="placeholder" style="height: 500px;"></div>
+    <!-- блок-заглушка -->
+    <!-- <div class="placeholder" style="height: 500px;"></div> -->
 </body>
 </html>
